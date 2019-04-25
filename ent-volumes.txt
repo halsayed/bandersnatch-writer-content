@@ -1,0 +1,20 @@
+Block storage acts as one or more targets for client Windows or Linux operating systems running on a bare metal server or as guest VMs using iSCSI initiators from within the client operating systems. Eligible block storage is storage from any new or existing Nutanix cluster. To provide access to the block storage and simplify client configuration management, Volumes exposes a single iSCSI data services IP address to clients for target discovery, which also simplifies external iSCSI configuration on clients. This iSCSI data services IP acts as an iSCSI target discovery portal and initial connection point.
+
+The client is configured with this single IP address, which helps load balance storage requests and enables path optimization in the cluster, preventing bottlenecks.
+
+Volumes does not require multipath I/O (MPIO) configuration on the client but it is compatible with clients that are currently using or configured with MPIO.
+
+A significant advantage of Volumes is that the cluster-wide iSCSI data services IP address enables you to expand your cluster without requiring you to reconfigure clients using Volumes. It also makes it easy to scale storage capacity and performance without the need for downtime.
+Volumes provides high availability by design. Because all nodes in a Nutanix cluster support Volumes, storage access and requests are redirected to surviving nodes if any node fails or becomes unavailable. Failover in this case is non-disruptive, with an initial minimal delay of 10 seconds or less possibly experienced by applications.
+
+@@pic/volumes-1.png(6.3)@@
+
+Volumes can support use cases including but not limited to:
+
+1. iSCSI for Microsoft Exchange Server. Volumes enables Microsoft Exchange Server environments to use iSCSI as the primary storage protocol.
+
+2. Shared storage for Windows Server Failover Clustering (WSFC). Volumes supports SCSI-3 persistent reservations for shared storage-based Windows clusters, commonly used with Microsoft SQL Server and clustered file servers.
+
+3. Bare-metal environments. Volumes enables existing server hardware separate from a Nutanix cluster to consume the Acropolis Distributed Storage Fabric (DSF) resources. Workloads not targeted for virtualization can also use the DSF.
+
+4. Boot over iSCSI. Volumes enables and supports the ability to boot an operating system over iSCSI for physical servers. In this configuration, a host can start a supported operating system from a LUN instead of a local disk instance.

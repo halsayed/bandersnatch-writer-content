@@ -1,0 +1,18 @@
+Nutanix radically simplifies your enterprise datacenter by integrating server and storage resources into a turnkey appliance that is deployed in just 30 to 60 minutes, and runs any application at any scale. You can start with a few servers and scale to thousands, with predictable performance and economics. Nutanix was founded in 2009 and is built with the same distributed software architecture powering leading Web-scale and cloud infrastructures, such as Google, Facebook and Amazon, named “Web-Scale IT”. Web-Scale IT consists of a few principles that are key for a modern datacenter:
+
+1) 100 % software-defined with no reliance on special purpose hardware for resilience, performance and availability. Allowing for new capabilities without hardware upgrades;
+2) All data, metadata and operations are distributed across the entire cluster, eliminating performance bottlenecks and enabling predictable scalability without limits;
+3) Designed to tolerate component failures through fault isolation and automatic recovery without bringing down the overall system;
+4) Extensive automation and rich system-wide monitoring for data-driven efficiency combined with REST-based programmatic interfaces for integration with datacenter management tools.
+
+@@pic/intro-1.png(7.4)@@
+
+With Nutanix, {var[CustomerName]} will be able to move towards a drastically simplification of your datacenter and Nutanix will offer you the following advantages compared to a traditional infrastructure approach:
+1) Faster Time to Market because of a faster roll-out of new IT initiatives;
+2) No downtime to perform upgrades of your infrastructure;
+3) Very easy migration between the existing and the Nutanix platform;
+4) Powerful, non-proprietary hardware;
+5) Reduction of your operational expenses;
+6) Expand the infrastructure when you need the resources without any bottlenecks or limitations;
+7) Lower datacenter and ecological footprint;
+8) Your IT administrators will have more time available for innovative projects because of a reduction of keeping the lights on’ activities.

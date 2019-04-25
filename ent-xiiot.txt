@@ -1,0 +1,30 @@
+
+ 
+The Nutanix Xi IoT platform delivers local compute, artificial intelligence for your IoT edge devices, converging the edge and your choice of cloud into one seamless, delightful application development platform. The Xi IoT platform eliminates complexity, accelerates deployment and elevates developers to focus on the business logic powering IoT applications and services. Now developers can use a low-code development platform to create application software via APIs instead of arduous programming methods.
+
+Nutanix Xi IoT enables easy ingest and analysis of new and existing data streams that can transform your organization. Xi IoT lets you fully exploit the potential value of your data by freeing you to focus on business logic and applications, including real-time analysis for manufacturing facilities, oil and gas upstream and downstream locations, retail outlets, hospitals, and much more. The insights from your intelligent edge can deliver an array of benefits, including reduced downtime, increased patient or customer satisfaction, and new targeted products and services, all of which help you identify trends long before the competition, differentiate your brand, and maximize revenue.
+
+
+Convergence of Edge and Cloud:
+Easily move data from edge devices to a cloud of your choice, be it your own private cloud or Microsoft, Amazon, or Google public cloud infrastructure.
+
+Xi IoT offers several advantages over traditional proxy gateway solutions, including:
+• Real-time data processing at the edge for real-time, actionable insights
+• No-code methods for migrating filtered insights to your preferred clouds
+• Easy configuration, setup, and management for thousands of edge locations from a centralized SaaS control plane 
+
+
+@@pic/xiiot-1.png(6.3)@@
+
+Xi IoT AND EDGE ARCHITECTURE
+Nutanix Xi IoT is comprised of a SaaS control plane and Xi Edge platform running on an edge device. The SaaS control plane provides an end-to-end platform that is centrally managed from the cloud through a user-friendly interface for application development and operations to easily deploy thousands of edge locations. Using Xi IoT, Nutanix customers can either deploy Xi Edge bare metal or as virtual machine (VM) on shared or dedicated nodes. 
+
+The Xi Edge platform leverages Kubernetes, which allows you to consolidate traditional IoT applications as well as enable new-generation, data science based applications in containers.
+
+@@pic/xiiot-2.png(6.3)@@
+
+The Xi Edge platform provides secure access to IoT data sources with data pipelines all the way from the edge to the  cloud, including AWS, Azure, GCP,and managed/on-prem private clouds. It also provides seamless data mobility between edge and cloud, which lets users send metadata and build ML models in the cloud.
+
+@@pic/xiiot-3.png(6.3)@@
+
+

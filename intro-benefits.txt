@@ -1,0 +1,13 @@
+With Nutanix, who introduced the HCI (Hyper-Converged Infrastructure) to the enterprise market back in 2009 based on Web-Scale architecture as previously mentioned, CustomerX would be able to consolidate and simplify the DC design, streamline the operations, reduce the risk, increase the availability of the core applications, reduce the TCO (Total Cost of ownership) and would have the ability to scale easily and efficiently to accommodate any futuristic projects and initiatives. Listed below some of the benefits for CustomerX upon adopting Nutanix and Hyper-Converged Infrastructure:
+• Reducing the footprint of the DC.
+• Reducing OPEX associated with power and cooling requirements based on the reduction and consolidation of the Infrastructure.
+• Increased availability of data and applications compared to current architecture.
+• Ease of upgrades for the infrastructure with zero risk and zero down time for the workloads.
+• Transform the DC to be a private cloud like with streamlined and simplified operations.
+
+Based on a study executed by the IDC comparing Nutanix to a traditional architecture as the one running currently in the DC of {var[CustomerName]}, the following average benefits can be achieved:
+
+@@pic/intro-2.png(7.07)@@
+
+To download the full report, please use the following link:
+https://www.nutanix.com/go/nutanix-pricing-vs-traditional-infrastructure-tco-roi-report.html

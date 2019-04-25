@@ -1,0 +1,217 @@
+{
+  "title": "Standard Nutanix technical write-up",
+  "id": "DOC-0001",
+  "topics": [
+    "prism", "calm", "files", "flow", "era", "karbon", "buckets", "volumes",
+    "xiframe", "xibeam", "xiepoch", "xiiot", "xileap"
+  ],
+  "var_list": [
+    "CustomerName"
+  ],
+  "sections":
+    [
+      {
+        "section": "introduction",
+        "title": "Introduction",
+        "filename": "introduction.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true,
+        "topics": [
+          {
+            "section": "executive",
+            "title": "Executive Summary",
+            "filename": "intro-executive.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          },
+          {
+            "section": "benefits",
+            "title": "Benefits of adopting HCI architecture on Nutanix Platform",
+            "filename": "intro-benefits.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          }
+        ]
+      },
+      {
+        "section": "solution",
+        "title": "Nutanix Proposed Solution for {var[CustomerName]}",
+        "filename": "solution.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true,
+        "topics": [
+          {
+            "section": "solution-summary",
+            "title": "Proposed Hardware Summary",
+            "filename": "solution-summary.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          }
+        ]
+      },
+      {
+        "section": "why",
+        "title": "Why Nutanix for {var[CustomerName]}?",
+        "filename": "why.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true
+      },
+      {
+        "section": "overview",
+        "title": "Nutanix Overview",
+        "filename": "overview.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true
+      },
+      {
+        "section": "ecp",
+        "title": "Nutanix Enterprise Cloud Platform Overview",
+        "filename": "ecp.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true,
+        "topics": [
+          {
+            "section": "core",
+            "title": "Core Technologies",
+            "filename": "ecp-core.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          },
+          {
+            "section": "essential",
+            "title": "Essential Technologies",
+            "filename": "ecp-essential.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false,
+            "topics": [
+              {
+                "section": "prism",
+                "title": "Prism Pro",
+                "filename": "essential-pro.txt",
+                "required": false,
+                "style": "heading3",
+                "pagebreak": false
+              },
+              {
+                "section": "calm",
+                "title": "Calm",
+                "filename": "essential-calm.txt",
+                "required": false,
+                "style": "heading3",
+                "pagebreak": false
+              },
+              {
+                "section": "files",
+                "title": "Files",
+                "filename": "essential-files.txt",
+                "required": false,
+                "style": "heading3",
+                "pagebreak": false
+              },
+              {
+                "section": "flow",
+                "title": "Flow",
+                "filename": "essential-flow.txt",
+                "required": false,
+                "style": "heading3",
+                "pagebreak": false
+               }
+            ]
+          },
+          {
+            "section": "enterprise",
+            "title": "Enterprise Platform",
+            "filename": "ecp-enterprise.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": true,
+            "topics": [
+
+              {
+               "section": "era",
+               "title": "Era",
+               "filename": "ent-era.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "karbon",
+               "title": "Karbon",
+               "filename": "ent-karbon.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "buckets",
+               "title": "Buckets",
+               "filename": "ent-buckets.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "volumes",
+               "title": "Volumes",
+               "filename": "ent-volumes.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "xiframe",
+               "title": "Xi Frame",
+               "filename": "ent-xiframe.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "xibeam",
+               "title": "Xi Beam",
+               "filename": "ent-xibeam.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "xiepoch",
+               "title": "Xi Epoch",
+               "filename": "ent-xiepoch.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "xiiot",
+               "title": "Xi IOT",
+               "filename": "ent-xiiot.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             },
+             {
+               "section": "xileap",
+               "title": "Xi Leap",
+               "filename": "ent-xileap.txt",
+               "required": false,
+               "style": "heading3",
+               "pagebreak": false
+             }
+            ]
+          }
+        ]
+      }
+    ]
+}

@@ -1,0 +1,164 @@
+
+
+@@pic/ecp-1.png(6.3)@@
+
+Nutanix Core:
+
+Traditional datacenters and branch offices are holding back IT teams with:
+•Long lead times to design, procure and deploy infrastructure.
+•Multiple teams of specialists to manage, scale and troubleshoot. 
+•Complex IT solutions, leaving little time to innovate and support important business initiatives.
+
+Nutanix Core helps enterprises to deliver a cloud-like experience within their datacenters and branch office locations with Nutanix hyperconverged infrastructure (HCI).
+Nutanix hyperconverged converged infrastructure (HCI) brings simplicity and operational efficiency to datacenters and remote sites. It is perfect for delivering all applications, including Oracle, SAP, Microsoft, as well as VDI deployments with Citrix and VMware. Gartner, Forrester and other analysts have declared Nutanix to be the HCI industry leader.
+
+@@pic/ecp-2.png(6.3)@@
+
+Nutanix AOS:
+
+Nutanix Acropolis combines compute, storage, networking, virtualization, and much needed data protection and security capabilities into a hyperconverged solution that powers your enterprise cloud. AOS includes Prism for single-pane management for your full IT infrastructure stack. Attributes of this solution include:
+- Storage and compute resources Hyperconverged on x86 servers.
+- System intelligence located in software.
+- Data, metadata, and operations fully distributed across entire cluster of x86 servers.
+- Self-healing to tolerate and adjust to component failures.
+- API-based automation and rich analytics.
+The Distributed Storage Fabric (DSF) delivers enterprise data storage as an on-demand service by employing a highly-distributed software architecture. Nutanix eliminates the need for traditional SAN and NAS solutions while delivering a rich set of VM-centric software-defined services. Specifically, the DSF handles the data path of such features as snapshots, clones, high availability, disaster recovery, deduplication, compression, and erasure coding.
+
+The DSF operates via an interconnected network of Controller VMs (CVMs) that form a Nutanix cluster, and every node in the cluster has access to data from shared SSD, HDD, and cloud resources. The hypervisors and the DSF communicate using the industry-standard NFS, iSCSI, and SMB3 protocols.
+
+The App Mobility Fabric (AMF) is the Nutanix virtualization solution that allows apps to move across hypervisors. When virtual machines can move between hypervisors (for example, between VMware ESXi and AHV), administrators can host production and dev/test environments concurrently on different hypervisors and shift workloads between them as needed. AMF is implemented via a distributed, scale-out service that runs inside the CVM on every node within a Nutanix cluster.
+
+Acropolis does not rely on traditional SAN or NAS storage or expensive storage network interconnects. It combines highly dense storage and server compute (CPU and RAM) into a single-platform building block. Each building block is based on industry-standard Intel processor technology and delivers a unified, scale-out, shared-nothing architecture with no single points of failure.
+
+@@pic/ecp-3.png(6.3)@@
+
+The Nutanix solution has no LUNs to manage, no RAID groups to configure, and no complicated storage multipathing to set up. All storage management is VM-centric, and the DSF optimizes I/O at the VM virtual disk level.
+
+There is one shared pool of storage that includes flash-based SSDs for high performance and HDDs for affordable capacity. The file system automatically tiers data across different types of storage devices using intelligent data placement algorithms. These algorithms make sure that the most frequently used data is available in memory or in flash for the fastest possible performance.
+
+With the DSF, a CVM writes data to local flash memory for fast acknowledgment; the CVM also handles read operations locally for reduced latency and fast data delivery.
+
+The figure below shows an overview of the Nutanix architecture, including the hypervisor of your choice (AHV, ESXi, or Hyper-V), user VMs, the Nutanix storage CVM, and its local disk devices.
+
+@@pic/ecp-4.png(6.3)@@
+
+Each CVM connects directly to the local storage controller and its associated disks. Using local storage controllers on each host localizes access to data through the DSF, thereby reducing storage I/O latency. The DSF replicates writes synchronously to at least one other Nutanix node in the system, distributing data throughout the cluster for resiliency and availability. Replication factor 2 (RF2) creates two identical data copies in the cluster, and replication factor 3 (RF3) creates three identical data copies. Having a local storage controller on each node ensures that storage performance as well as storage capacity increase linearly with node addition.
+
+Local storage for each Nutanix node in the architecture appears to the hypervisor as one large pool of shared storage. This allows the DSF to support all key virtualization features. Data localization maintains performance and quality of service (QoS) on each host, minimizing the effect noisy VMs have on their neighbors’ performance. This functionality allows for large, mixed-workload clusters that are more efficient and more resilient to failure when compared to traditional architectures with standalone, shared, and dual-controller storage arrays.
+
+When VMs move from one hypervisor to another, such as during live migration and high availability, the now local CVM serves a newly migrated VM’s data. When reading old data (stored on the now remote CVM) the local CVM forwards the I/O request to the remote CVM. All write I/O occurs locally. The DSF detects that I/O is occurring from a different node and migrates the data to the local node in the background, allowing for all read I/O to now be served locally. The data only migrates when there have been enough reads and writes from the remote node to minimize network utilization.
+
+The next figure shows how data follows the VM as it moves between hypervisor nodes.
+
+@@pic/ecp-5.png(6.3)@@
+
+Nutanix Prism:
+
+Nutanix Prism provides central access for administrators to configure, monitor, and manage virtual environments in an efficient and elegant way. Powered by advanced data analytics and heuristics and rich automation, Prism offers unprecedented simplicity by combining several aspects of datacenter management into a single, consumer-grade solution. Using innovative machine learning technology, Prism can mine large volumes of system data easily and quickly and generate actionable insights for optimizing all aspects of virtual infrastructure management. Prism is a part of every Nutanix deployment and has two core components:
+	
+-Prism Element: Prism Element is a service built into the platform for every Nutanix cluster deployed. Prism Element provides the ability to fully configure, manage, and monitor Nutanix clusters running any hypervisor.
+
+-Prism Central: Because Prism Element only manages the cluster it is part of, each Nutanix cluster in a deployment has a unique Prism Element instance for management. As organizations deploy multiple Nutanix clusters, they want to be able to manage all of them from a single Prism instance, so Nutanix introduced Prism Central. Prism Central offers an organizational view into a distributed Nutanix deployment, with the ability to attach all remote and local Nutanix clusters to a single Prism Central deployment.
+
+
+
+
+This global management experience offers a single place to monitor performance, health, and inventory for all Nutanix clusters. Prism Central is available in a standard version included with every Nutanix deployment and as a Pro version that is licensed separately and enables several advanced features.
+
+
+@@pic/ecp-6.png(6.3)@@
+
+Nutanix designed Prism based on the idea that designing complex software is hard, but designing simplicity is genius. As a result, Prism is elegant, intuitive, and inviting. We prioritized streamlining what the user needs to do and offloaded common decisions to the software. This approach means that users have fewer knobs to turn and choices to make. These design fundamentals have produced a user experience that is consistent across the entire product.
+
+Prism Central is an application you can deploy in a VM (Prism Central VM) or a scale-out cluster of VMs (Prism Central instance), either manually by importing a VM template or via one click from Prism Element. You can run Prism Central VM in a small or large VM; the difference is the amount of CPU and memory assigned to the Prism Central VM to manage the VMs. You can initially deploy a Prism Central instance as a scale-out cluster or, if you are running it as a single VM, easily scale it out in one-click fashion via Prism Element.
+
+@@pic/ecp-7.png(6.3)@@
+
+This architecture is extensible because it allows you to enable value-added features and products, such as Prism Pro, Calm, and Flow networking within the Prism Central application, as shown in the diagram below. These additional features operate within a single Prism Central VM or clustered Prism Central instance and do not require the design or deployment of separate products. This strategy enables a simplified experience throughout the phases of a project and includes one-click upgrades that allow users to benefit from regular innovations.
+
+The standard edition of Prism Central is available to all license levels on Nutanix platforms and includes an entity explorer, entity tagging, alerts, user-created alerts, tasks, alert-driven root cause analysis, analysis, user management and authentication, localization, and self-service.
+
+@@pic/ecp-8.png(6.3)@@
+
+Entity Explorer
+	
+
+Prism Central serves as a single management point for multicluster and multisite Nutanix environments. In multicluster environments, you need easy access to information in a simple summary. The entity explorer, accessed via the explore view in Prism Central, provides this overview. Prism’s analysis features can report on and allow you to view a number of entities within a Nutanix cluster. The entity explorer focuses on a subset of entities that provide administrators with access to configuration and inventory data:
+-Virtual machines
+-Nutanix clusters
+-Hosts
+-Disks
+-Containers
+When you select an entity to view, Prism immediately returns a list of all of the items within the selected entity. If you select VMs, for example, you see a list of every VM on each of the clusters a Prism Central instance is managing. You can view the entity list in one of three formats: a list view, tile view, or circle view. Each view provides a unique look into the data provided
+
+@@pic/ecp-9.png(6.3)@@
+
+Entity Tagging
+	
+
+The entity explorer allows you to tag virtual machines with one or more labels. When the entity explorer displays results, it represents your labels with a symbol; it also offers labels as an additional method by which to filter results. Labels can have a number of uses, including tagging VMs that belong to a single application, business owner, or customer.
+
+@@pic/ecp-10.png(6.3)@@
+
+Alerts
+	
+
+The alert features in Prism Central apprise administrators of informational, warning, and critical alerts for all clusters under management. The alerts view presents all notifications and events in an easy-to-consume table format. Prism Central displays each alert with the color-coded severity level, a description of the alert, the timestamp, and which entity the alert involves.
+
+
+
+There can be a significant amount of variance between organizations, and if alert policies are too rigid to accommodate these differences, they become a hindrance. Prism Central lets you update and customize alert policies with different values to suit your particular organization’s conditions. The Prism Central instance applies such policy changes to all clusters under management.
+	
+
+Tasks
+	
+
+Within a multicluster environment, it is particularly helpful to understand the actions performed over time. Prism Central records these and presents them as tasks in the tasks view. A table format displays all tasks and lists what actions were performed, the entity each action was performed on, and the cluster, status, running time, and duration of each action. From the task view, organizations can easily see recent actions and get a comprehensive sense of the current status. The task view is also a helpful resource when looking back to a specific time period when researching an issue’s root cause or finding the source of configuration changes.
+
+@@pic/ecp-11.png(6.3)@@
+
+
+Alert-Driven Root Cause Analysis
+	
+
+To help administrators remediate alerts, Prism offers a summary of probable causes for each alert. Because knowing what caused an alert is only half the problem, Prism also provides the most likely resolution, helping administrators correct issues faster. Each possible root cause Prism suggests includes recommended steps for correcting the issue along with items to review, logs to examine, and any other applicable actions. Some root cause corrective measures also provide a performance metric chart for the administrator to review. To help identify whether a performance issue caused the problem, a bell on the chart marks the time when the alert was created. This marker allows the administrator to see if the suggested metric was in violation at the time of the event.
+
+
+@@pic/ecp-12.png(6.3)@@
+
+##Self-Service##
+	
+
+The self-service portal (SSP) is an integrated service on the Nutanix Enterprise Cloud OS. The SSP offers application owners or operations staff the ability to consume and manage resources without the need for administrator-level access. The SSP feature is currently only available on clusters running Nutanix AHV as the hypervisor. The streamlined SSP administration experience closely follows Prism’s familiar look and feel. Nutanix simplifies administration into the simple management of projects, roles, users, and catalog items. Within the SSP, a project is the construct that allows you to assign resources and privileges for a group of users to consume. To manage the amount of resources that a particular project can consume, you can assign quotas for CPU, memory, and storage capacity; you can also leave these resources unlimited.
+
+Roles and users assigned to projects provide role-based access controls (RBACs). Roles give you fine-grained permission control to precisely define what actions a user can perform within each project. The SSP is LDAP-enabled and connects to Windows Active Directory. The single global catalog within the SSP is available to every active project in a cluster. Catalog items can include VM templates that allow you to modify resources before deployment. Another kind of catalog item could be a disk image that presents ISO media to users for OS and application installs; there could also be a disk image that contains an OS instance or data from an application.
+
+@@pic/ecp-13.png(6.3)@@
+
+
+##AHV:##
+
+Nutanix AHV is an enterprise-class virtualization solution included with the Acropolis Enterprise Cloud OS, with no additional software components to license, install or manage. Nutanix AHV is the combination of mature commodity virtualization technology, performance tuned for Nutanix HCI, and enterprise grade management, operational intelligence, security, and automation delivered with 1-click simplicity.
+
+AHV supports all the functions that an enterprise wants and needs when implementing a virtualized infrastructure. You can set up many of these features with only a few clicks
+Virtual machine (VM) CRUD (create, read, update, delete). With AHV, you can accomplish these tasks through a series of one-click, fill-in-the-blank processes. To create a VM, for example, use the AHV management interface to input a few details—VM name, description, vCPUs, cores per vCPU, memory, disks, and network adapters—and you’re done.
+
+@@pic/ecp-14.png(6.3)@@
+
+Clones. Create a new space-efficient VM based on an existing VM. Additionally, with AHV you can create multiple clones through a single modification in the management interface.
+
+@@pic/ecp-15.png(6.3)@@
+
+Power on, off, pause, and resume. All the options for managing a VM’s power state are available in AHV. Snapshots. Create both crash-consistent and application-consistent snapshots.
+
+Migrate. Allows a Nutanix AHV solution to be mobile and flexible, moving VMs across different AHV nodes in the cluster. A simple one-click operation initiates the process. The administrator can either select the destination manually or let AHV determine the optimal placement.
+
+@@pic/ecp-16.png(6.3)@@
+
+
+VM guest tools. The Nutanix Guest Tools (NGT) software package in AHV is similar to other industry hypervisor tool sets. Once enabled, NGT makes a CD-ROM available on the guest to install the guest tools.
+
+When you combine the basic features above with the core functions of manageability, data protection, high availability, operational insight, and performance, AHV provides an enterprise ready solution, capable of competing with the current industry veterans. Much of the Nutanix vision concerns simplifying how enterprises use and consume IT; this idea clearly carries through into AHV.
+
+
+

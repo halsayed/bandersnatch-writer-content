@@ -1,0 +1,15 @@
+Nutanix hyper-converged solutions are uniquely built using web-scale technologies and architectures that originated in large Internet and cloud companies, such as Google, Facebook and Amazon. Nutanix offers a wide range of platforms to run any workload. Multiple appliance types can be mixed in a single cluster, enabling flexible and linear scaling of capacity and performance.
+Attributes of all our platforms include:
+• Storage and compute resources hyper-converged on x86 servers
+• All system intelligence provided in software
+• Data, metadata, and operations fully distributed across entire cluster of x86 servers
+• Self-healing to tolerate and adjust to component failures
+• API-based automation and rich analytics
+
+@@pic/overview-1.png(7.03)@@
+
+The Nutanix solution combines highly dense storage and server compute (CPU and RAM) into a single platform building block. Each building block is based on industry-standard Intel processor/server technology, and delivers a unified, scale-out, shared-nothing architecture with no single points of failure. The Nutanix platform does not rely on traditional SAN/NAS storage or expensive storage network interconnects. Nutanix sets itself apart from competing solutions with its uncompromising simplicity. This simplicity is demonstrated in the speed of deployment, manageability, operations, and ease of designing successful solutions for business-critical applications.
+
+The Nutanix Virtual Computing Platform consists of a Hyperconverged infrastructure whereby the Nutanix Controller VMs are crucial. These CVMs will deliver you, based on the Web-Scale IT principles, an intelligent ‘Data Plane’ and a distributed management layer, the ‘Control Plane”.
+
+@@pic/overview-2.png(6.8)@@

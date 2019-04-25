@@ -1,0 +1,14 @@
+NUTANIX ENTERPRISE is the right solution for large IT organizations who are ready to build hybrid clouds, and who want to unify IT operations and application management across their different environments. It is also ideal for enterprises ready to standardize their datacenter infrastructure on a single OS, incorporating a growing set of platform services (PaaS) for their private cloud.
+
+Besides IT operations teams, Nutanix Enterprise benefits:  
+- Database administrators who can automate database management operations and copy data 
+management tasks 
+- VDI and end-user computing (EUC) teams, who can instantly leverage a proven cloud-based service to deliver virtual desktops and applications
+
+- Application developers and DevOps teams, who can: 
+
+- Get access to a cloud-like environment to develop and test their applications 
+
+- Monitor application performance and availability in nearly any cloud 
+
+- Provision and manage a Kubernetes cluster on Nutanix to develop and run container-based workloads

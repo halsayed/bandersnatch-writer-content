@@ -1,0 +1,10 @@
+Nutanix Essentials includes everything in Nutanix Core, plus:  
+
+- Nutanix Flow – Software-defined networking with native micro-segmentation to protect individual applications from internal and external security threats 
+
+- Nutanix Files – Integrated scale-out storage for unstructured file data 
+
+- Nutanix Calm – Built-in application management and orchestration, with self-service capabilities 
+
+- Prism Pro – Advanced infrastructure management, with centralized upgrades, capacity planning and scheduled reporting capabilities
+

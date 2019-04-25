@@ -1,0 +1,9 @@
+NUTANIX CORE includes Nutanix Acropolis, the industry’s most popular HCI solution, perfect for all size organizations. With its consumer-grade simplicity, you no longer need specialized IT skills to deploy and manage infrastructure that delivers cloud-like agility and flexibility.  
+
+Nutanix Core includes:
+  
+- Acropolis HCI software – The industry’s #1 HCI software solution 
+
+- AHV virtualization – High performance, built-in virtualization  
+
+- Prism management – Single-pane management for your full IT infrastructure stack

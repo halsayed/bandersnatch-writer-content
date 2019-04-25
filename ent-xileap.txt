@@ -1,0 +1,39 @@
+Nutanix Xi Leap is a natively integrated cloud based Disaster Recovery Service that leverages a common infrastructure stack and a single point of control, delivering orchestrated disaster recovery without the need to provision, configure or manage multiple products. Leap also eliminates the need to maintain a secondary dedicated site for DR and makes it simple to achieve DR readiness.
+
+@@pic/xileap-1.png(6.3)@@
+
+BUILT-IN DISASTER RECOVERY:
+
+Xi Leap is natively built-in to the Nutanix Platform, eliminating the need to painstakingly fuse multiple products to protect your environment. DR planning, set up and monitoring are managed within Prism, so there is no learning curve.
+
+INSTANT PLANNING & ONBOARDING:
+
+- Onboarding also becomes simpler because as a native extension of the Nutanix Enterprise Cloud Platform, Xi Leap ports workload profiles, including VM, networking and security configuration to the recovery site, reducing setup time and streamlining failover processes.
+
+- Extension of on-prem networks - Xi Leap eliminates the complexity of setting up VPN tunnels and routing protocols in order to enable reachability between the on-prem and cloud networks. Xi Leap discovers the on-prem network topology and allows customers to extend their network into the cloud in a few clicks.
+
+- IP address preservation - Xi Leap eliminates the need for complex IP address mappings by fully preserving network topology and workload IP addresses during recovery in the Xi cloud.
+
+
+Onboarding is done in 2 simple steps once you setup your account:
+
+1. Protection policies – Setup rule-based, VM-centric protection policies and selectively protect specific workloads based on recovery point objective (RPO) requirements
+2. Recovery plan – Create automated plans for recovery of workloads, controlling boot sequencing of virtual machines. Custom scripts can be included in recovery plans to automate any set of actions such as VM customization or firewall configuration
+
+ONE-CLICK FAILOVER AND FAILBACK:
+
+Xi Leap streamlines disaster recovery for business continuity of critical workloads. Xi Leap provides disaster recovery orchestration to achieve one-click reliable execution of failover and failback processes sans any manual intervention. In addition, Xi Leap enables partial failover of applications for server maintenance or during rack failures. Network connectivity and common management between environments are preserved, allowing customers to manage the source and target sites as a single environment gaining full visibility, control and better DR readiness.
+
+NON-DISRUPTIVE TESTING AND CLEANUP:
+
+Xi Leap offers non-disruptive testing, enabling organizations to routinely examine their DR readiness and achieve regulatory compliance. Network isolated testing environments are dynamically spun up upon user instruction to test the entire recovery process without impact to the primary environment. Test environments are automatically cleaned up upon test completion, eliminating the need for manual intervention.
+
+END-TO-END SECURITY:
+
+Xi Leap features a comprehensive security suite that provides full isolation and protection of customer workloads against attacks and theft. Security capabilities of Xi cloud services span across the following dimensions:
+
+- Data security - All customer data, at-rest and in-flight, is always encrypted using unique customer specific keys and strong crypto standards (AES-256).
+
+- Network security and isolation - Applications run in customer specific virtual networks that are fully isolated from other customers’ virtual networks. Customers can selectively grant public Internet access to specific workloads. Customers can also define micro-segmentation policies to inspect and control communication flows between applications.
+
+- Identity and access management - Xi Leap supports Single Sign On (SSO) authentication by integrating with Active Directory Federation Services (ADFS). Customers can enable two-factor authentication and granularly control user privileges for additional security.

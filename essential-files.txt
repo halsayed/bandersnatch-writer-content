@@ -1,0 +1,24 @@
+At Nutanix, we believe that our customers shouldn’t be held back by the complexity of multiple point solutions, multiple management silos, and boundaries between storage protocols when building an enterprise private cloud. Nutanix Files is built on top of our innovative HCI platform to break down the silos between storage, network, and compute for your file storage.
+
+Nutanix Files is simple; it eliminates complexity by providing single click deployment, single click provisioning, and single pane of glass management of your entire infrastructure with Nutanix Prism.
+
+Nutanix Files is flexible; it can be deployed on many different types of hardware even mixed hardware. You can scale-up and scale-out non-disruptively by adding virtual resources or adding nodes. You can deploy as a stand-alone file storage solution or as a tightly integrated file storage and application solution on the same hyperconverged infrastructure cluster.
+
+Nutanix Files is intelligent; An integrated recommendation engine identifies risks to performance and availability before they become problems and recommends remediation that can be applied with a single click. Integrated file analytics provides you deep insights about your file data for greater visibility and enhanced protection.
+
+@@pic/files-1.png(6.3)@@
+
+Designed for simplicity at scale:
+- Self-tuning and self-healing using predictive performance and recommendation engine
+- Non-disruptive scale-up AND scale-out for linear performance increases when you need them
+- Single pane of glass management eliminates alt-tab management and specialized knowledge
+- Software defined flexible hardware to pick the hardware that best meets your needs
+
+Designed to provide governance and control:
+- Native analytics for deep visibility gives you permissions and activity audit trails to see how your data is being used or mis-used. Anomaly detection and rule creation alerts you to back actors before they can damage your data.
+- Self-service and programmable for faster storage resource delivery and automated provisioning
+
+Built for a multi-cloud world:
+- Cloud like pay as you grow consumption model
+- Build for cloud era with integrated file tiering to the cloud (coming soon)
+

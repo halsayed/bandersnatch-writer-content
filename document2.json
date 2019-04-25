@@ -1,0 +1,65 @@
+{
+  "title": "VDI proposal",
+  "id": "DOC-0002",
+  "topics": [
+    "citrix", "horizon"
+  ],
+  "var_list": [
+    "CustomerName", "UserCount"
+  ],
+  "sections":
+    [
+      {
+        "section": "introduction",
+        "title": "Introduction",
+        "filename": "introduction.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": true,
+        "topics": [
+          {
+            "section": "executive",
+            "title": "Executive Summary",
+            "filename": "intro-executive.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          },
+          {
+            "section": "benefits",
+            "title": "Benefits of adopting HCI architecture on Nutanix Platform",
+            "filename": "intro-benefits.txt",
+            "required": true,
+            "style": "heading2",
+            "pagebreak": false
+          }
+        ]
+      },
+      {
+        "section": "vdi",
+        "title": "Which solution better for {var[CustomerName]}",
+        "filename": "vdi.txt",
+        "required": true,
+        "style": "heading1",
+        "pagebreak": false,
+        "topics": [
+          {
+            "section": "citrix",
+            "title": "Citrix on Nutanix",
+            "filename": "citrix.txt",
+            "required": false,
+            "style": "heading2",
+            "pagebreak": false
+          },
+          {
+            "section": "horizon",
+            "title": "Horzion on Nutanix",
+            "filename": "horzion.txt",
+            "required": false,
+            "style": "heading2",
+            "pagebreak": false
+          }
+        ]
+      }
+    ]
+}

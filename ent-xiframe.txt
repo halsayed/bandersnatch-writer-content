@@ -1,0 +1,32 @@
+
+Nutanix Frame is Nutanix’s desktop and application delivery offering. Frame is a public cloud service that empowers your organization by providing a platform to deliver any Windows/Linux application or desktop as a service to end-user's web browser. It makes it faster and easier to continuously integrate and deliver virtual apps and desktops at any scale in any region with the apps & services that your end-users consume on the clouds that you use.Frame delivers value and benefits to the CIO’s SLA -think about the CIO’s service level agreement to business leaders, business stakeholders, and end-users/customers. For IT orgs, the CIO’s SLA means –Secure (protect your assets), Lean (cost efficient, TCO/ROI, and maximize utility for customers), and Agile (freedom of choice, freedom to pivot to most ideal solution, and freedom from lock-in). Frame is cloud-agnostic with no long-term, expensive vendor lock-in while meeting the rigor and discipline to protect your users, data, and business as your business grows.
+
+
+@@pic/xiframe-1.png(6.3)@@
+
+
+ • Easy Do-it-Yourself Digital Workspace platform that integrates & delivers your virtual apps and desktops from public cloud
+ • Access any Windows/Linux app or desktop from a web browser
+ • Simplify DaaS with One-Click simplicity
+ • FedRAMP Ready Status
+ • Choose your preferred IaaS provider –AWS, Azure, GCP (future), and AOS (future)
+ • Use your preferred IAM, GPU, and cloud storage services
+ • Deliver high performance with cloud agility, availability, and scalability to end-users anywhere on any device
+ • Embed your apps and desktops in your web applications/portals to support integrated employee or customer workflows.
+
+
+Nutanix Frame benefits:
+
+ • Frame simplifies delivering a digital workspace with faster time to value. Install on the main image and publish.
+ • Run any Windows or Linux app using any web browser.
+ • Deliver high performance and cloud agility, availability, and scalability to your end-user’s applications as they work on any device that supports a web browser from anywhere with Frame.
+
+ • No upfront cost, pay-as-you go with your choice of public cloud provider as well as popular IAM, GPU, and cloud storage 	services.
+ • Deliver better end-user experience high performance with cloud agility, availability, and scalability to end-users anywhere on any device. 
+ • Show faster time to value and innovation with Frame and its powerful simplicity in delivering a modern digital workspace from cloud with all the benefits of cloud
+ • Frame is secure, lean, and agile by design.
+
+
+
+
+Nutanix Frame provides do-it-yourself simplicity with automated, fully managed cloud service solution that simplifies the continuous integration and continuous delivery of the digital workspace. Frame provides a faster time to value and removes the barriers to deliver and consume virtual desktops and virtual apps

@@ -1,0 +1,32 @@
+
+Nutanix Xi Beam is a multi-cloud optimization service delivered as part of the Nutanix Enterprise Cloud OS. Beam provides organizations with deep visibility and rich analytics detailing cloud consumption patterns, along with one-click cost optimization across their cloud environments.
+
+Xi Beam Beam provides you deep visibility into your multi-cloud environment and ability to optimize cloud with one-click. Beam identifies underutilized and unused cloud services and provides convenient single click remediation suggestions, empowering cloud operators to realize cost savings immediately. With Beam, you can set policies that continuously maintain high levels of cloud cost efficiency.
+
+With Xi Beam you can Visualize and control consumption of cloud resources across departments and groups, and enforce policies based on allocated budgets. Beam provides cloud operators and business owners with appropriate tools and controls to track all cloud spend, map consumption to business units and enhance cloud optimization.
+
+
+@@pic/xibeam-1.png(6.3)@@
+
+
+Deep Cloud Cost Analytics With One-Click Optimization:
+- Xi Beam tracks cost consumption across all cloud resources at both aggregate and granular levels - per application workload, team and business unit. Beam identifies underutilized and unused cloud services and provides one-click remediation, empowering operators to realize cloud cost savings immediately and set policies to continuously maintain high levels of cloud efficiency.
+
+Deep Cloud Cost Insights For Better Cloud Control:
+- As cloud environments grow, the need to centralize cloud cost governance control across multiple teams becomes critical.  Cloud operators and business owners need a systematic way and appropriate tools to track entire cloud spend and map consumption to business units.
+
+- Xi Beam visualizes resources by groups and departments, empowering cloud operators to manage their usage. Beam provides policy-based reporting and chargeback, so that teams can ensure consumption is within budget and aligns with business objectives.
+
+
+Make Right Intelligent Cloud Purchase Decisions with Ease:
+- Cloud providers offer multiple purchasing options that can yield significant savings when utilized effectively. However, navigating the complexity of multiple options across a number of clouds accounts using a variety of services for better cloud ROI can be challenging.
+
+- Xi Beam makes this planning process easy using machine intelligence and recommendation algorithms that analyze workload patterns and continuously suggest optimal purchasing decisions.
+
+Cloud Security—Automated & Simplified:
+- Time to simplify your cloud security compliance. With more than 250 automated audit checks and built-in security compliance policies, Xi Beam gives you unparalleled insight into your multi-cloud environment and helps you automate regulatory compliance standards such as PCI-DSS, HIPPA, and CIS.
+
+Unified Management for Public & Private Clouds:
+- Make informed cloud decisions with Xi Beam’s hybrid cloud governance dashboard that gives you deep visibility and actionable insights to manage your public & private cloud environments from a single cloud management dashboard.
+
+

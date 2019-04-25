@@ -1,0 +1,17 @@
+Nutanix Flow, a software-defined networking (SDN) solution built for the multi-cloud era.
+
+Flow provides application-centric security to protect against internal and external threats not detected by traditional perimeter-oriented security products. Flow capabilities are fully integrated into Nutanix’s AcropolisTM software for easy deployment and will be enhanced with real-time application visibility and discovery technology from Nutanix's Application Discovery service "Epoch"
+
+Nutanix Flow non-intrusively automates the creation and management of application security.
+
+@@pic/flow-1.png(6.3)@@
+
+Nutanix Flow is built into the Nutanix Enterprise Cloud OS, and today provides:
+
+- Network Visualization — giving application owners an at-a-glance view of network performance and availability per application
+
+- Application-Centric Microsegmentation — providing granular control and governance for all application traffic to protect sensitive workloads and data
+
+- Service Insertion and Chaining — integrating additional network functions from multiple Nutanix Ready ecosystem partners into a single networking policy
+
+- Network Automation — streamlining and automating common network configuration changes, like VLAN configuration or load balancer policy modifications, based on application lifecycle events for VMs running on Nutanix AHV

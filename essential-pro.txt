@@ -1,0 +1,17 @@
+Nutanix makes datacenter infrastructure and clouds invisible, elevating IT to focus on business applications and services. 
+Prism Pro enables smarter IT operations. 
+Prism Pro intelligently optimizes capacity, proactively monitors anomalies and can recommend resolutions based on machine learning.
+Reduce your TCO by saving time, improving efficiency and assuring quality of service.
+
+@@pic/prismpro-1.png(6.3)@@
+
+Intelligence
+-Machine learning and automated operations enable admin to spend time on issues other than infrastructure planning/monitoring
+
+-Automated capacity analytics efficiently matches right workloads with right nodes, and capacity runway guarantees that you never run out of capacity
+
+Simplicity
+-One click recommendations to extend infrastructure runway
+
+-Just-in-Time forecast enables scaling without overprovisioning or under provisioning
+

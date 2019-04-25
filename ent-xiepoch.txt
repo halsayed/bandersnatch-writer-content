@@ -1,0 +1,12 @@
+
+Nutanix Xi Epoch provides Observability and Monitoring for Multi-Cloud Applications. Xi Epoch enables end-to-end visibility into application infrastructure, service interactions, and dependencies. With Xi Epoch you can maintain high availability and resilience of your applications without the need for any code instrumentation.  
+
+@@pic/xiepoch-1.png(6.3)@@
+
+Nutanix Xi Epoch benefits:
+
+Instant Observability - Epoch generates live application maps to provide instantaneous visibility into your application health without any code instrumentation. Epoch provides visibility into the interactions between components in distributed architectures, without dependency on specific language or framework implementation. As a result, operations team can quickly ensure reliability and availability of any application in any cloud environment.
+
+Smart KPIs - Epoch seamlessly delivers out-of-box alerting for “golden signals” such as latency, error rates, and throughput. Operations teams can continuously monitor key service level objectives (SLOs) rather than individual instances, and set alerts for aggregated KPIs, rather than thousands of low-level notifications. As a result, operations teams gain powerful insights into key KPIs that impact end-user experience and application uptime, eliminating alert fatigue.
+
+Rapid Outage Response - Epoch empowers monitoring teams with a robust analytics engine that renders millions of data points in real-time to accelerate outage investigation. As a result, teams can quickly test failure hypotheses using sub-second queries and application drill-downs, leading to dramatically lower mean-time-to-resolution (MTTR) and increased application uptime.
